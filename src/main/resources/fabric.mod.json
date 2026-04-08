@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "one-block-survival",
+  "version": "1.0.0",
+  "name": "One Block Survival",
+  "description": "The entire world is a single block floating in the void. Break it to get random resources and build your survival platform!",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.oneblocksurvival.OneBlockSurvival"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
